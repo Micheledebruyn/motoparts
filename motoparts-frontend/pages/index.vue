@@ -1,4 +1,5 @@
 <template>
+  <section class="hero">
   <div class="container">
     <div class="columns">
       <div class="column">
@@ -15,11 +16,12 @@
       </div>
       <div class="column">
         <div class="center">
-          <img src="~/static/dirtbike-home.jpg" alt="Dirt bike wheel" class="splashbanner-img">
+          <img src="~/static/dirtbike-home.jpg" alt="Dirt bike wheel" class="splashbanner-img mobile-hidden">
         </div>
       </div>
     </div>
   </div>
+  </section>
 </template>
 
 <script>
