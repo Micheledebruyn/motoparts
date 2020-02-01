@@ -13,7 +13,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Taviraj:300,400|Work+Sans:600,700&display=swap'}
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600|Work+Sans:700&display=swap'}
     ]
   },
   /*
@@ -24,6 +24,7 @@ export default {
   ** Global CSS
   */
   css: [
+    '~/assets/index.scss'
   ],
   /*
   ** Plugins to load before mounting the App
